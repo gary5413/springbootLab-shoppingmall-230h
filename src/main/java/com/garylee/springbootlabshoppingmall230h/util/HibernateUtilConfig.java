@@ -8,7 +8,7 @@ import org.springframework.orm.hibernate5.HibernateTransactionManager;
 
 import javax.persistence.EntityManagerFactory;
 
-@Configuration
+@Configuration //配置註釋 代替xml設定
 public class HibernateUtilConfig {
     @Autowired
     private EntityManagerFactory entityManagerFactory;
